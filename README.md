@@ -21,12 +21,12 @@ cd /opt/gopath/src/github.com/hyperledger/fabric
 
 **Install**
 ```
-	peer chaincode install -n mycc -p github.com/hyperledger/fabric/art/artchaincode -c '{"Args":[""]}' -v 1
+	peer chaincode install -n mycc -p github.com/hyperledger/fabric/ITPC_Auction/art/artchaincode -c '{"Args":[""]}' -v 1
 ```
 
 **Instantiate**
 ```
-	peer chaincode instantiate -o 127.0.0.1:7050 -n mycc -p github.com/hyperledger/fabric/art/artchaincode -c '{"Args":[""]}' -v 1
+	peer chaincode instantiate -o 127.0.0.1:7050 -n mycc -p github.com/hyperledger/fabric/ITPC_Auction/art/artchaincode -c '{"Args":[""]}' -v 1
 ```
 
 **Post User 100**
