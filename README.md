@@ -1,3 +1,11 @@
+clone the app in your fabric folder in Vagrant environment
+
+cd /opt/gopath/src/github.com/hyperledger/fabric
+
+```
+git clone https://github.com/asararatnakar/ITPC_Auction
+```
+
 Vagrant Terminal 1:
 --------------------
 cd /opt/gopath/src/github.com/hyperledger/fabric
